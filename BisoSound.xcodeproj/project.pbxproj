@@ -14,6 +14,7 @@
 		CE9195312499EF520040A8FD /* BisoSound.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE91952F2499EF520040A8FD /* BisoSound.xcdatamodeld */; };
 		CE9195332499EF570040A8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9195322499EF570040A8FD /* Assets.xcassets */; };
 		CE9195362499EF570040A8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9195342499EF570040A8FD /* LaunchScreen.storyboard */; };
+		CE91953E2499F2340040A8FD /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91953D2499F2340040A8FD /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE9195322499EF570040A8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9195352499EF570040A8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9195372499EF570040A8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE91953D2499F2340040A8FD /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CE9195282499EF520040A8FD /* SceneDelegate.swift */,
 				CE91952A2499EF520040A8FD /* ViewController.swift */,
 				CE91952C2499EF520040A8FD /* Main.storyboard */,
+				CE91953D2499F2340040A8FD /* SoundViewController.swift */,
 				CE9195322499EF570040A8FD /* Assets.xcassets */,
 				CE9195342499EF570040A8FD /* LaunchScreen.storyboard */,
 				CE9195372499EF570040A8FD /* Info.plist */,
@@ -145,6 +148,7 @@
 				CE91952B2499EF520040A8FD /* ViewController.swift in Sources */,
 				CE9195272499EF520040A8FD /* AppDelegate.swift in Sources */,
 				CE9195292499EF520040A8FD /* SceneDelegate.swift in Sources */,
+				CE91953E2499F2340040A8FD /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q85245ARV;
 				INFOPLIST_FILE = BisoSound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q85245ARV;
 				INFOPLIST_FILE = BisoSound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
